@@ -210,3 +210,98 @@ h3{
     text-align: justify;
 }
 
+
+/* INTRODUÇÃO */
+.introducao {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.introducao h1 {
+    color: #285c3b;
+    margin-bottom: 20px;
+}
+
+.introducao p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+/* CARROSSEL */
+.secao-carrossel {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.secao-carrossel h2 {
+    color: #285c3b;
+    margin-bottom: 25px;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.slide {
+    width: 280px;
+    height: 180px;
+    background-color: #e5eee6;
+    border: 2px dashed #8aaa91;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #42634a;
+}
+
+.slide span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.slide p {
+    margin-top: 8px;
+}
+
+
+/* ECONOMIA */
+.economia {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+.economia h2 {
+    color: #285c3b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.economia h3 {
+    color: #39734b;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.economia p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.frase-final {
+    color: #285c3b;
+    font-weight: bold;
+    text-align: center !important;
+    margin-top: 30px;
+}
+
